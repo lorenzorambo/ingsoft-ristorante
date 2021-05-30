@@ -124,6 +124,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\IZonaConsegna.cs" />
+    <Compile Include="Models\ZonaConsegnaPunti.cs" />
     <Compile Include="Models\Prodotto.cs" />
     <Compile Include="Models\Richiesta\Ordine.cs" />
     <Compile Include="Models\Richiesta\Prenotazione.cs" />
