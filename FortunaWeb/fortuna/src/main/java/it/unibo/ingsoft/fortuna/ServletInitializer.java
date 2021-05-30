@@ -1,4 +1,4 @@
-package it.unibo.ingsoft.fortuna.fortuna;
+package it.unibo.ingsoft.fortuna;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

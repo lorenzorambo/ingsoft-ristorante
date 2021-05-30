@@ -1,4 +1,4 @@
-package it.unibo.ingsoft.fortuna.fortuna;
+package it.unibo.ingsoft.fortuna;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
