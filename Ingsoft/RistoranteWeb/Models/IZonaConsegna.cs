@@ -8,5 +8,7 @@ namespace RistoranteWeb.Models
 {
     interface IZonaConsegna
     {
+        public Boolean include(Pair<Double, Double> coordinata, double prezzo);
+        public Boolean include(string indirizzo, double prezzo);
     }
 }
