@@ -1,4 +1,4 @@
-package it.unibo.ingsoft.fortuna.model;
+package it.unibo.ingsoft.fortuna.model.richiesta;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -9,8 +9,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import it.unibo.ingsoft.fortuna.model.richiesta.Ordine;
-import it.unibo.ingsoft.fortuna.model.richiesta.OrdineDomicilio;
+import it.unibo.ingsoft.fortuna.model.Prodotto;
+import it.unibo.ingsoft.fortuna.model.Sconto;
 
 @SpringBootTest
 public class OrdineTest {

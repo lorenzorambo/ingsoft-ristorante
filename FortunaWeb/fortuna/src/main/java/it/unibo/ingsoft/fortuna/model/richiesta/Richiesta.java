@@ -2,6 +2,8 @@ package it.unibo.ingsoft.fortuna.model.richiesta;
 
 import java.time.LocalDateTime;
 
+import org.springframework.validation.ObjectError;
+
 public abstract class Richiesta {
     private String nominativo;
     private String idRichiesta;
@@ -38,5 +40,17 @@ public abstract class Richiesta {
 
     public void setDataOra(LocalDateTime dataOra) {
         this.dataOra = dataOra;
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == this)
+            return true;
+        if (!(o instanceof Richiesta)) {
+            return false;
+        }
+        Richiesta richiesta = (Richiesta) o;
+        return this.getIdRichiesta().equals(richiesta.getIdRichiesta());
     }
 }
