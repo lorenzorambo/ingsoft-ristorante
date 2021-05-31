@@ -40,6 +40,14 @@ public class OrdineTest {
     }
 
     @Test
+    public void testSubclass()
+    {
+        assertTrue(ordine instanceof Richiesta);
+        assertTrue(ordine instanceof Ordine);
+        assertTrue(ordine instanceof OrdineDomicilio);
+    }
+
+    @Test
     public void testGetters()
     {
         assertEquals("Pinotto", ordine.getNominativo());
